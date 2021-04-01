@@ -1,11 +1,94 @@
 html 
 {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-div 
+.header-container
 {
-    border: 1px solid #000000;
+    color: white;
+    background-color: #c80000;
+    padding: 25px 20px 15px 20px;
+    font-weight: bold;
+}
+
+.logo-container
+{
+    font-size: xx-large;
+}
+
+.baseline-container
+{
+    font-size: small;
+}
+
+.category-container
+{
+    color: #ccc;
+    background-color: #666;
+    text-align: center;
+    padding: 20px 20px 15px 20px;
+    font-weight: normal;
+}
+
+.objecttype-container
+{
+    font-size: larger;
+}
+
+.brand-container
+{
+    font-size: x-large;
+    font-style: italic;
+}
+
+.objects-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding: 10px 20px 10px 20px;
+}
+
+.object
+{
+    border: 1px solid #666 ;
+    margin: auto;
+    width: 30%;
+}
+
+.image
+{
+    padding-bottom: 10px;
+}
+
+img
+{
+    width: 100%;
+}
+
+.cardset
+{
+    border-bottom: 1px solid #666;
+    margin: 0px 5px 5px 5px;
+}
+
+.cart-container
+{
+    background-color: #c80000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 5px 10px 5px;
 }
 
 
+
+.copyright-container
+{
+    text-align: center;
+    background-color: #666;
+    color: white;
+    padding: 5px 0 5px 0;
+}
